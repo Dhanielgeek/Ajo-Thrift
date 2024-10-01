@@ -1,5 +1,8 @@
+import { RouterProvider } from "react-router-dom";
+import { MainRoutes } from "./Routes/routes";
+
 const App = () => {
-  return <div className=" w-full h-screen bg-red-600">App</div>;
+  return <RouterProvider router={MainRoutes} />;
 };
 
 export default App;
