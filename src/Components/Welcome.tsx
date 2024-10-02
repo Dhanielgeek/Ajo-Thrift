@@ -30,7 +30,6 @@ const Welcome = () => {
         slidesPerView={1}
         navigation
         pagination={{ clickable: true }}
-        // Use navigation and pagination modules
         className="w-[50%] h-[70%] shadow-md max-md:w-[94%]"
       >
         {/* Each slide acts as a carousel item */}
